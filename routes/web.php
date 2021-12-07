@@ -22,4 +22,7 @@ Route::get('/index', function () {
 
 Auth::routes();
 
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index']);
+Route::get('/services', [App\Http\Controllers\HomeController::class, 'service'])->name('pages.service-page');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
