@@ -34,7 +34,7 @@
 
         <div class=" col-sm-7 text-center bg-light py-3">
             <h4 class="card-title">Direction on map</h4>
-            <map name="Direction on map "></map>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.949635374388!2d38.71674031480118!3d9.068353090868202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b893c4406d7c1%3A0x67bf52b14075534f!2sHyssop%20pharma%20Trading%20PLC!5e0!3m2!1sen!2set!4v1638997668954!5m2!1sen!2set"width="100%" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
 
         {{-- <!-- Floating action button -->

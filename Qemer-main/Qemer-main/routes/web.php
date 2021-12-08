@@ -20,6 +20,22 @@ Route::get('/index', function () {
     return view('index');
 });
 
+
+//contact us page
+Route::get('/contact', function () {
+    return view('pages.contact-page');
+});
+//contact us page
+Route::get('/services', function () {
+    return view('pages.service-page');
+});
+
+//contact us page
+Route::get('/about', function () {
+    return view('pages.about-page');
+});
+
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
