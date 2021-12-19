@@ -30,14 +30,11 @@
     color: #fff;
     background-color:  #1DB9A3;
 }
-.btnhover:hover {
-    background-color:  #fff;
-    color: #1DB9A3;
-}
-/* .bg-pharma {
+
+.bg-pharma {
     --bs-bg-opacity: 1;
     background-color: #1DB9A3 !important;
-  } */
+  }
 .text-pharma {
     --bs-text-opacity: 1;
     color: #1DB9A3 !important;
@@ -49,7 +46,7 @@
     background-image: linear-gradient(180deg, #1DB9A3, #1db9a467);
  }
 .bg-gradients {
-    background-image: linear-gradient(180deg, #1db9a467, #1DB9A3);
+    background-color: #1DB9A3
 }
 .logo-alen {
     filter: brightness(0) invert(1);
